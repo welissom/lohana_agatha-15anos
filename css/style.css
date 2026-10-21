@@ -272,3 +272,118 @@ body {
     .time-box { min-width: 65px; padding: 10px; }
     .time-box span { font-size: 1.5rem; }
 }
+
+/* Seção Dicas de Presente */
+.gift-section {
+    margin: 50px 0;
+    padding: 35px 25px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+    border-top: 4px solid var(--gold);
+}
+
+.gift-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    color: var(--pink-primary);
+    margin-bottom: 10px;
+}
+
+.gift-subtitle {
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.gift-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 600px) {
+    .gift-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.gift-item {
+    background: var(--bg-color);
+    padding: 20px 15px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.gift-item:hover {
+    transform: translateY(-4px);
+}
+
+.gift-item i {
+    font-size: 1.6rem;
+    color: var(--gold);
+    margin-bottom: 10px;
+}
+
+.gift-item h4 {
+    font-size: 1rem;
+    color: var(--pink-primary);
+    margin-bottom: 5px;
+}
+
+.gift-item p {
+    font-size: 0.9rem;
+    color: var(--text-dark);
+}
+
+/* Caixa do Pix */
+.pix-box {
+    background: var(--pink-light);
+    padding: 25px 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 1px dashed var(--pink-primary);
+}
+
+.pix-icon {
+    font-size: 1.8rem;
+    color: var(--pink-primary);
+    margin-bottom: 8px;
+}
+
+.pix-box h4 {
+    font-size: 1.05rem;
+    color: var(--pink-primary);
+    margin-bottom: 8px;
+}
+
+.pix-key {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.btn-copy-pix {
+    background-color: var(--pink-primary);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-copy-pix:hover {
+    background-color: var(--pink-salmon);
+    transform: scale(1.05);
+}
