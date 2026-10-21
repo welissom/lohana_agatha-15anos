@@ -60,3 +60,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     }, 1000);
 });
+
+function copiarPix() {
+    const chave = document.getElementById("chavePix").innerText;
+    navigator.clipboard.writeText(chave).then(() => {
+        const textoBotao = document.getElementById("textoBotaoPix");
+        textoBotao.innerText = "Chave Copiada!";
+        setTimeout(() => {
+            textoBotao.innerText = "Copiar Chave Pix";
+        }, 2500);
+    });
+}
