@@ -67,7 +67,7 @@ body {
 /* Estilo da Logo */
 .logo-img {
     max-width: 100%;
-    width: 190px; /* Você pode aumentar ou diminuir esse valor para ajustar o tamanho */
+    width: 150px; /* Você pode aumentar ou diminuir esse valor para ajustar o tamanho */
     height: auto;
     display: block;
     margin: 0 auto;
