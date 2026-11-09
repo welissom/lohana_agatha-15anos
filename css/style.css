@@ -396,3 +396,116 @@ body {
     margin-bottom: 10px;
     display: inline-block;
 }
+
+/* Seção Manual do Convidado */
+.manual-section {
+    margin: 50px 0;
+    padding: 35px 25px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+    border-top: 4px solid var(--pink-primary);
+}
+
+.manual-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    color: var(--pink-primary);
+    margin-bottom: 10px;
+}
+
+.manual-subtitle {
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.color-restriction-box {
+    background: var(--bg-color);
+    padding: 25px 20px;
+    border-radius: 15px;
+    border: 1px dashed var(--pink-salmon);
+}
+
+.manual-icon {
+    font-size: 1.8rem;
+    color: var(--gold);
+    margin-bottom: 10px;
+}
+
+.color-restriction-box h4 {
+    font-size: 1.1rem;
+    color: var(--pink-primary);
+    margin-bottom: 10px;
+}
+
+.color-restriction-box p {
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+}
+
+/* Amostras de Cores (Bolinhas) */
+.color-swatches {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.swatch-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.swatch {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 3px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    position: relative;
+}
+
+/* Cores representadas */
+.swatch-pink-light {
+    background: #f8c8d4;
+}
+
+.swatch-pink-all {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.swatch-rose-gold {
+    background: linear-gradient(135deg, #e6b2a6 0%, #b76e79 50%, #f3d1c8 100%);
+}
+
+.swatch-gold {
+    background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 50%, #aa7c11 100%);
+}
+
+.swatch-item small {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.manual-note {
+    background: white;
+    padding: 12px 15px;
+    border-radius: 10px;
+    font-size: 0.9rem !important;
+    color: var(--pink-primary) !important;
+    margin-bottom: 0 !important;
+    display: inline-block;
+}
+
+.manual-note i {
+    color: var(--gold);
+    margin-right: 5px;
+}
